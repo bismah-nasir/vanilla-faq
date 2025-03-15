@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FAQ with Vanilla JS</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+	<section class="main-section">
+
+		<!-- FAQs Heading -->
+		<div class="faq-head">
+			<img src="assets/images/icon-star.svg">
+			<h1>FAQs</h1>
+		</div>
+
+		<!-- Questions and Answers -->
+		<div class="accordion-container">
+			<div class="accordion-item">
+				<button class="accordion-btn">
+					What is Vanilla JavaScript?
+
+					<div class="icons">
+						<img class="plus-icon btn-icon" src="assets/images/icon-plus.svg">
+
+						<img class="minus-icon btn-icon" src="assets/images/icon-minus.svg">
+					</div>
+				</button>
+
+				<div class="accordion-answer">
+					<p>Vanilla JavaScript refers to plain JavaScript without any frameworks or libraries.
+                        It is the core of all JavaScript-based applications. Developers use Vanilla JS 
+                        to build interactive web pages by directly manipulating the DOM (Document Object Model).</p>
+				</div>
+			</div>
+
+			<div class="accordion-item">
+				<button class="accordion-btn">
+					What is Class-Based React?
+
+					<div class="icons">
+						<img class="plus-icon btn-icon" src="assets/images/icon-plus.svg">
+						<img class="minus-icon btn-icon" src="assets/images/icon-minus.svg">
+					</div>
+				</button>
+
+				<div class="accordion-answer">
+					<p>React with class components is the older way of writing React applications.
+                        It uses ES6 classes and this.state to manage component data.
+                        Class components include lifecycle methods like componentDidMount() and componentDidUpdate(),
+                        which control how components behave during different phases.</p>
+				</div>
+			</div>
+
+			<div class="accordion-item">
+				<button class="accordion-btn">
+					What is Modern React with Hooks?
+
+					<div class="icons">
+						<img class="plus-icon btn-icon" src="assets/images/icon-plus.svg">
+						<img class="minus-icon btn-icon" src="assets/images/icon-minus.svg">
+					</div>
+				</button>
+
+				<div class="accordion-answer">
+					<p>Modern React uses functional components with hooks (useState, useEffect, etc.)
+                        instead of class-based components. Hooks allow developers to manage state and side effects more easily.
+                        This approach makes React applications simpler, cleaner, and more reusable.</p>
+				</div>
+			</div>
+
+			<div class="accordion-item">
+				<button class="accordion-btn">
+					What is Redux in React?
+
+					<div class="icons">
+						<img class="plus-icon btn-icon" src="assets/images/icon-plus.svg">
+						<img class="minus-icon btn-icon" src="assets/images/icon-minus.svg">
+					</div>
+				</button>
+
+				<div class="accordion-answer">
+					<p>Redux is a state management library used with React to manage application-wide data in a centralized store.
+                        It helps in handling complex state updates efficiently. Instead of passing props manually between components,
+                        Redux provides a global state that can be accessed from anywhere in the application.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="copyright">
+		<p>Copyright &copy; 2025 Bismah Nasir. All rights reserved.</p>
+	</footer>
+	
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

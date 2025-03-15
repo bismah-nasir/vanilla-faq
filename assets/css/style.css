@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --white: #FFFFFF;
+    --light-pink: #F9F0FF;
+    --grayish-purple: #8C6991;
+    --dark-purple: #2F1533;
+    --bright-purple: #AD28EB;
+    --transparent: transparent;
+}
+
+
+body{
+    background-color: var(--light-pink);
+    background-image: url("../images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Work Sans', 'sans-serif';
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+
+img, svg{
+    max-width: 100%;
+    display: block;
+}
+
+
+button{
+    cursor: pointer;
+    background-color: var(--transparent);
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Work Sans', 'sans-serif';
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 0;
+    color: var(--dark-purple);
+}
+
+
+button:hover{
+    color: var(--bright-purple);
+}
+
+
+.main-section{
+    background-color: var(--white);
+    max-width: 600px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 1rem;
+}
+
+
+.faq-head{
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 40px;
+}
+
+
+.faq-head h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--dark-purple);
+}
+
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.accordion-container .accordion-item:not(:last-child){
+    border-bottom: 2px solid var(--light-pink);
+}
+
+
+.accordion-item .icons img{
+    min-width: 30px;
+}
+
+
+.accordion-item .icons .minus-icon{
+    display: none;
+}
+
+
+.accordion-answer{
+    background-color: var(--white);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease;
+    line-height: 1.5rem;
+}
+
+
+.accordion-answer p{
+    color: var(--grayish-purple);
+    padding: 1.5rem 0;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 540px){
+    body{
+        background-image: url("../images/background-pattern-mobile.svg");
+    }
+}
