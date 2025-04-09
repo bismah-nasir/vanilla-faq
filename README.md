@@ -10,9 +10,9 @@ Users can click on each question to reveal or hide the answer.
 
 
 ### 🛠 Tech Stack
-•	Frontend: HTML, CSS, JavaScript (VanillaJS)
+•	**Frontend:** HTML, CSS, JavaScript (VanillaJS)
 
-•	Styling: CSS
+•	**Styling:** CSS
 
 
 ### 🎯 Features
@@ -26,10 +26,19 @@ Users can click on each question to reveal or hide the answer.
 ### 📸 Screenshots
 ![image_alt](https://github.com/bismah-nasir/vanilla-faq/blob/71ae484228c2a071c4e61f61f1e6626438c0ec8c/vanillajs-faq.PNG)
 
+
 ### 📜 How It Works
 •	Uses JavaScript event listeners to handle user interactions.
 
 •	Toggles the display of answers when a question is clicked.
+
+### 🖥️ How to Run
+You can run this project in two simple ways:
+
+1. **Open the `index.html` file directly in your browser.**
+2. **Or** use a Live Server extension (like in VS Code) to open the project folder and serve `index.html`.
+
+No additional setup or installation is required.
 
 
 ### 🚀 Live Demo
