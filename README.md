@@ -40,6 +40,11 @@ You can run this project in two simple ways:
 
 No additional setup or installation is required.
 
+### 📄 Project Documentation
+A detailed report of all four tasks is available in the master repository.
+
+🔗 [View Full Assignment Report](https://github.com/bismah-nasir/minimal-app-assignment/blob/main/B21110006023%20BISMAH%20NASIR%20MINIMAL%20APP%20MODIFIED.pdf)
+
 
 ### 🚀 Live Demo
 🔗 https://vanillajs-faq.netlify.app/
